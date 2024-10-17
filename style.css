@@ -1,0 +1,27 @@
+.year{
+    letter-spacing: 30px !important;
+}
+
+/* ------------ Helper Clas ------------- */
+.bg-purple{
+    background: #6244C5 !important;
+}
+.bg-yellow{
+    background: #FFC448 !important;
+} 
+.bg-gray{
+    background: #7070711c !important;
+}
+.text-purple{
+    color: #6244C5;
+}
+.borders{
+    border: 2px solid #6244C5;
+}
+.fs-7{
+    font-size: 12px !important;
+}
+.hg-5{
+    height: 7px;
+}
+
