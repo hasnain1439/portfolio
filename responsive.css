@@ -1,0 +1,24 @@
+@media screen and (min-width:700px) and (max-width: 1000px) {
+    #icon-img{
+        top: 20% !important;
+        left: 25% !important;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 700px) {
+    #icon-img{
+        top: 22% !important;
+        left: 33% !important;
+    }
+}
+@media screen and (min-width:300px) and (max-width: 576px) {
+    #icon-img{
+        top: 40% !important;
+        left: 35% !important;
+    }
+    #years{
+        font-size: 80px !important;
+    }
+    .year{
+        letter-spacing: 10px !important;
+    }
+}

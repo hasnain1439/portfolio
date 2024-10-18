@@ -24,4 +24,12 @@
 .hg-5{
     height: 7px;
 }
-
+hr{
+    width: 30px;
+}
+.box-shadow{
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(128, 128, 128, 0.307);
+}
+.borders-bottom{
+    border-bottom: 2px solid #6244C5;
+}
