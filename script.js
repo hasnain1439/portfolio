@@ -1,35 +1,9 @@
-let iconBar = document.getElementById("icon-bar");
-let dropDownNavbar = document.getElementById("sm-navbar");
-let iconMark = document.getElementById("icon-xmark");
-let navbar = document.getElementById("navbar");
 let experience = document.getElementById("experience");
 let skills = document.getElementById("skills");
 let experienceDetail = document.getElementById("experience-detail");
 let skillsDetail = document.getElementById("skills-detail");
 let productDetail = document.querySelectorAll("#product-detail")
 
-window.onscroll = function () {
-  if (document.documentElement.scrollTop > 150) {
-    navbar.classList.remove("d-none");
-    navbar.classList.add("d-block");
-  } else if (document.documentElement.scrollTop < 150) {
-    navbar.classList.remove("d-block");
-    navbar.classList.add("d-none");
-  }
-};
-
-if (iconBar) {
-  iconBar.addEventListener("click", function () {
-    dropDownNavbar.classList.add("row");
-    dropDownNavbar.classList.remove("d-none");
-    // alert("hello")
-  });
-}
-if (iconMark) {
-  iconMark.addEventListener("click", function () {
-    dropDownNavbar.classList.add("d-none");
-  });
-}
 
 if(skills){
   skills.addEventListener("click", function(){
