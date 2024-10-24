@@ -12,10 +12,10 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -53,6 +53,7 @@
             </div>
         </div>
     </nav>
+
 
     <div class="container-fluid p-sm-5 bg-gray">
         <div class="row align-items-center justify-content-lg-between justify-content-center mt-5 pt-5">
@@ -480,29 +481,505 @@
     </div>
 
     <div class="container-fluid p-sm-5">
-        <div class="container py-5">
+        <div class="container py-5 px-0">
             <div class="row justify-content-between">
                 <div class="col-auto">
                     <h1>My Project</h1>
                 </div>
                 <div class="col-auto">
                     <ul class="navbar-nav flex-row">
-                        <li class="nav-item px-2 text-purple borders-bottom allproduct" id="product-detail"><a href="#"
+                        <li class="nav-item px-2 mx-sm-1 nav-style allproduct" id="product-detail"><a href="#"
                                 class="nav-link">All Project</a></li>
-                        <li class="nav-item px-2 webdevelopment" id="product-detail"><a href="#" class="nav-link">Web
+                        <li class="nav-item px-2 mx-sm-1 webdevelopment" id="product-detail"><a href="#"
+                                class="nav-link">Web
                                 Design</a></li>
-                        <li class="nav-item px-2 ux" id="product-detail"><a href="#" class="nav-link">UI/UX</a></li>
+                        <li class="nav-item px-2 mx-sm-1 ux" id="product-detail"><a href="#" class="nav-link">UI/UX</a>
+                        </li>
                     </ul>
+                </div>
+            </div>
+            <div class="main" id="all-project">
+                <div class="row mt-5 gallery justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/shoesall.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://eloquent-sprite-8b92c5.netlify.app/" target="_blank"><i
+                                                class="fa-solid fa-link text-white fs-4"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/login.png" class="w-100" id="card-img" style="height: 192px;" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://keen-mermaid-9ea4e2.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/torisham.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://joyful-liger-74f5b1.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/quick.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://marvelous-strudel-7b78a7.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/caluclator.png" class="w-100" id="card-img" style="height: 192px;" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://iridescent-souffle-49f79e.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/animal.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://graceful-souffle-c86da0.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center d-none" id="more-card">
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/ecommerce.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://storied-sfogliatella-c2d862.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/clear.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://wondrous-sable-f9424c.netlify.app/" target="_blank">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                            style="max-height: 192px;">
+                            <img src="product/portfolio.png" class="img-fluid" id="card-img" alt="">
+                            <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                                style="height: 100%;">
+                                <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="col-auto">
+                                        <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-link text-white fs-4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn bg-purple px-4 py-3 text-white cursor-pointer" id="read-more">Read More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main d-none" id="web-design">
+            <div class="row mt-5 gallery justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/torisham.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://joyful-liger-74f5b1.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/quick.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://marvelous-strudel-7b78a7.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/animal.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://graceful-souffle-c86da0.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/ecommerce.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-link text-white fs-4"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/clear.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://wondrous-sable-f9424c.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main d-none" id="ui-design">
+            <div class="row mt-5 gallery justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/shoesall.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://eloquent-sprite-8b92c5.netlify.app/" target="_blank"><i
+                                            class="fa-solid fa-link text-white fs-4"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/login.png" class="w-100" id="card-img" style="height: 192px;" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://keen-mermaid-9ea4e2.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/caluclator.png" class="w-100" id="card-img" style="height: 192px;" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://iridescent-souffle-49f79e.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="col-12 box-shadow mb-4 position-relative cursor-pointer overflow-hidden" id="card"
+                        style="max-height: 192px;">
+                        <img src="product/portfolio.png" class="img-fluid" id="card-img" alt="">
+                        <div class="position-absolute w-100 bg-card top-0 start-0 d-none" id="products"
+                            style="height: 100%;">
+                            <div class="row justify-content-center align-items-center" style="height: 100%;">
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-eye text-white fs-4" id="eye-icon"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="index.html">
+                                        <i class="fa-solid fa-link text-white fs-4"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 
+    <div class="container-fluid p-sm-5 ">
+        <div class="row justify-content-between">
+            <div class="col-auto">
+                <h1 class="display-3 fw-bolder fst-italic">Let's Work Together</h1>
+            </div>
+            <div class="col-auto">
+                <button class="btn bg-purple px-4 py-3 text-white cursor-pointer" id="read-more">Say Hello</button>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-lg-6">
+                <div class="col-12 my-2">
+                    <p class="mb-0 fw-lighter">My Home:</p>
+                    <h2 class="fw-bolder fst-italic fs-sm-2 fs-5">Badami Bagh Lahore</h2>
+                    <hr style="width:100%">
+                </div>
+                <div class="col-12 my-2">
+                    <p class="mb-0 fw-lighter">Call Me:</p>
+                    <h2 class="fw-bolder fst-italic fs-sm-2 fs-5">+923204698158</h2>
+                    <hr style="width:100%">
+                </div>
+                <div class="col-12 my-2">
+                    <p class="mb-0 fw-lighter">Mail Me:</p>
+                    <h2 class="fst-italic fs-sm-2 fs-6">hasnainiqbal7860a@gmail.com</h2>
+                    <hr style="width:100%">
+                </div>
+                <div class="col-12 my-2">
+                    <p class="mb-0 fw-lighter">Follow Me:</p>
+                    <div class="row my-3">
+                        <div class="col-auto">
+                            <a href="https://github.com/hasnain1439?tab=repositories" target="_blank">
+                                <i class="fa-brands fs-4 fa-github p-2 bg-purple text-white rounded cursor-pointer"></i>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="https://www.linkedin.com/in/hasnain-iqbal-73043326a/" target="_blank">
+                                <i
+                                    class="fa-brands fs-4 fa-linkedin p-2 bg-purple text-white rounded cursor-pointer"></i>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="https://www.facebook.com/profile.php?id=100061241025949" target="_blank">
+                                <i
+                                    class="fa-brands fs-4 fa-facebook-f p-2 bg-purple text-white rounded cursor-pointer"></i>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="http://wa.me/+923204698158" target="_blank">
+                                <i
+                                    class="fa-brands fs-4 fa-whatsapp p-2 bg-purple text-white rounded cursor-pointer"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <p>The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in
+                    a few minutes. Just copy and paste the files, add a little code and you're done. <span
+                        class="text-purple">Download Now.</span></p>
+                <div class="ol-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="col-12">
+                                    <input type="text" name="name" id="name" placeholder="Your Name"
+                                        class="w-100 rounded border-1 py-sm-3 fs-6 px-sm-2 p-2">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="col-12">
+                                    <input type="email" name="email" id="email" placeholder="Your Email"
+                                        class="w-100 rounded border-1 py-sm-3 fs-6 px-sm-2 p-2">
+                                </div>
+                            </div>
+                            <div class="col-12 my-4">
+                                <div class="col-12">
+                                    <input type="email" name="email" id="email" placeholder="Subject"
+                                        class="w-100 rounded border-1 py-sm-3 fs-6 px-sm-2 p-2">
+                                </div>
+                            </div>
+                            <div class="col-12 my-4">
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Message"
+                                        class="w-100 rounded py-sm-3 px-sm-2 p-2 " style="height: 100px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn bg-purple px-4 py-2 text-white cursor-pointer"
+                                    id="read-more">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mb-0">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27186.25984503121!2d74.30340840764136!3d31.598718600595962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b79807d5f9d%3A0x724de831330d72e3!2sBadami%20Bagh%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1729777769570!5m2!1sen!2s"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-12 py-2 bg-dark px-sm-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-sm-auto">
+                <p class="text-white">© <span class="text-yellow text-decoration-underline">My Portfolio</span>, All Right Reserved.</p>
+            </div>
+            <div class="col-sm-auto d-sm-block d-none">
+                <p class="text-white">Design By <span class="text-yellow text-decoration-underline">HTML Code</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+
+    <script>
+        // lightGallery(document.querySelector(".gallery"));
+    </script>
 </body>
 
 </html>
